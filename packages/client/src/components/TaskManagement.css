@@ -1,0 +1,168 @@
+li.task {
+  min-width: 500px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  margin: 5px auto;
+  border-radius: 22px;
+}
+
+.title {
+  width: 50%;
+  font-size: x-large;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 100px;
+}
+
+.description {
+  width: 100%;
+  text-align: left;
+  font-weight: bold;
+  padding-left: 10%;
+}
+
+div.holder {
+  width: 600px;
+
+}
+
+ol:hover {
+  border-radius: 22px;
+  background-color: rgb(11, 11, 18);
+  color: rgb(24, 27, 33) !important;
+}
+
+.main {
+  display: none;
+}
+
+.completed {
+  transform: scale(1.5);
+  margin-left: 10px;
+}
+
+ol:hover .main {
+  display: contents;
+  transition-timing-function: ease-in-out;
+}
+
+.task {
+  max-width: 530px;
+  width: 530px;
+  border: 4px solid white;
+}
+
+ol {
+  width: 500px;
+  margin-bottom: -2px;
+  margin-left: 15px;
+}
+
+.modalButton {
+  margin-left: 9%;
+  background-color: rgb(24,147,255);
+  border: 1px solid #31404b;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  direction: ltr;
+  display: block;
+  font-family: "SF Pro Text", "SF Pro Icons", "AOS Icons", "Helvetica Neue",
+    Helvetica, Arial, sans-serif;
+  font-size: 27px;
+  font-weight: 450;
+  letter-spacing: -0.022em;
+  line-height: 1.47059;
+  min-width: 120px;
+  min-height: 45px;
+  margin-bottom: 10px;
+  overflow: visible;
+  padding: 4px 15px;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+.modalButton:hover {
+  background-image: #1893ff;
+  border-color: #1482d0;
+  text-decoration: none;
+}
+
+.listDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.edit-button {
+background-color: gray;
+border: none;
+width: 90px;
+height: 45px;
+margin-left: 30px;
+font-size: larger;
+border-radius: 8px;
+padding: 5px;
+border: 2px solid white;
+}
+
+.edit-button:hover {
+  background-color: rgb(158, 153, 153);
+  transition: ease-in-out;
+}
+
+#taskDeleteButton {
+
+  border: 2px solid white;
+}
+
+.datePicker {
+  max-width: 300px;
+  margin-left: 145px;
+  border: 2px solid white;
+}
+
+.dueDateSpan {
+  color: white;
+  position: relative;
+  top: 35px;
+  left: 20px;
+  font-weight: bold;
+  font-size: large;
+}
+
+.para {
+  font-weight: bold;
+}
+
+.div-card2 {
+  max-width: 600px;
+  max-height: 180vh;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+#modalBody{
+  background-color: rgb(241, 154, 79);
+}
+
+#modalHeader{
+  background-color: rgb(241, 154, 79);
+}
+
+#editTaskModalHeader {
+  background-color: rgb(241, 154, 79);
+}
+
+#TaskModalEdit {
+  background-color: rgb(241, 154, 79);
+}

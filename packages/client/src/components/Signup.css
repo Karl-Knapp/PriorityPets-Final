@@ -1,0 +1,48 @@
+.sign-up-modal {
+  background-color: green;
+  border-radius: 0 0 22px;
+  border-radius: 0 0 0px 0px;
+  height: 300px;
+}
+
+.sign-up-input1 {
+  margin-top: 30px;
+  margin-left: 40px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.sign-up-input2 {
+  margin-top: 30px;
+  margin-left: 20px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.sign-up-input3 {
+  margin-top: 30px;
+  margin-left: 40px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.sign-up-input4 {
+  margin-top: 30px;
+  margin-left: 20px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.sign-up-button {
+  margin-left: 230px;
+  margin-top: 30px;
+  font-size: x-large;
+  border-radius: 10px;
+}
+
+.signup-header {
+  color: white;
+  background-color: green;
+  margin-bottom: -1px;
+  font-size: x-large;
+}

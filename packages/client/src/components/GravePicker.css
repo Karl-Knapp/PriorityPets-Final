@@ -1,0 +1,21 @@
+.modal-grave {
+  position: relative;
+  top: 220px;
+  height: 190px;
+  width: 190px;
+  opacity: 50%;
+}
+
+.modal-grave-hide {
+  display: none;
+}
+
+.grave-modal-container {
+  background: url("../images/spookygraveyard.jpeg") center center/cover no-repeat;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+height: 400px;
+}
+
+
